@@ -3,14 +3,14 @@ local L = LibStub("AceLocale-3.0"):NewLocale("HandyNotes_Silvermoon", "zhCN", fa
 if not L then return end
 -- Simplified Chinese localization by nbyang ( https://www.curseforge.com/members/nbyang )
 --  zhCN client: (NGA-男爵凯恩)
---  Last update: 2024/08/31
+--  Last update: 2026/02/10
 if L then
 ----------------------------------------------------------------------------------------------------
 -----------------------------------------------CONFIG-----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-L["config_plugin_name"] = "多恩诺嘉尔"
-L["config_plugin_desc"] = "在世界地图和小地图上显示多恩诺嘉尔各种NPC及传送门位置。"
+L["config_plugin_name"] = "银月城"
+L["config_plugin_desc"] = "在世界地图和小地图上显示银月城各种NPC及传送门位置。"
 
 L["config_tab_general"] = "通用"
 L["config_tab_scale_alpha"] = "缩放/透明度"
@@ -126,7 +126,7 @@ L["dev_config_show_prints_desc"] = "在聊天窗口中显示标记()的信息"
 
 --==========================================CONTEXT_MENU==========================================--
 
-L["handler_context_menu_addon_name"] = "HandyNotes：多恩诺嘉尔"
+L["handler_context_menu_addon_name"] = "HandyNotes：银月城"
 L["handler_context_menu_add_tomtom"] = "添加到 TomTom"
 L["handler_context_menu_add_map_pin"] = "设置地图航点"
 L["handler_context_menu_hide_node"] = "隐藏这个图标"
@@ -144,8 +144,8 @@ L["handler_tooltip_quest"] = "解锁任务"
 
 L["Crafting Orders"] = "制造订单"
 L["Mailbox"] = "邮箱"
-L["Portal to Orgrimmar"] = "通往奥格瑞玛"
-L["Portal to Stormwind"] = "通往暴风城"
+L["Portal to Orgrimmar"] = "通往奥格瑞玛的传送门"
+L["Portal to Stormwind"] = "通往暴风城的传送门"
 L["Portal to The Timeways"] = "通往时间流的传送门"
 L["Rostrum of Transformation"] = "幻形讲坛"
 L["The Catalyst"] = "化生台"
