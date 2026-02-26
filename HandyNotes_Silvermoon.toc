@@ -1,4 +1,4 @@
-## Interface: 120000
+## Interface: 120001
 ## Title: HandyNotes: Silvermoon
 ## Title-ruRU: HandyNotes: Луносвет
 ## Title-zhCN: HandyNotes: 银月城
@@ -7,12 +7,12 @@
 ## Notes-ruRU: Отображает расположение NPC и других интересных мест в Луносвете.
 ## Notes-zhCN: 显示银月城各种NPC及传送门位置。
 ## Author: |cFFFF8C00Dathwada EU-Eredar|r
-## Version: v0.1
+## Version: v1
 ## RequiredDeps: HandyNotes
 ## DefaultState: enabled
 ## SavedVariables: HandyNotes_SilvermoonDB
 ## IconTexture: 135761
-## X-Date: 2026-01-05
+## X-Date: 2026-02-26
 ## X-Category: Map
 
 # LOCALIZATION FILES
