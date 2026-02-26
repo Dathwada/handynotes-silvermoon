@@ -111,15 +111,15 @@ local function GetIconScale(icon, picon)
     -- makes the picon smaller
     if (picon ~= nil and ns.db.picons_vendor and (icon == "vendor" or icon == "anvil")) then return ns.db["icon_scale_vendor"] * 0.75 end
     if (picon ~= nil and ns.db.picons_trainer and icon == "trainer") then return ns.db["icon_scale_trainer"] * 0.75 end
-    -- anvil and decor npcs are vendors
-    if (icon == "anvil" or icon == "decor") then return ns.db["icon_scale_vendor"] end
+    -- anvil, decor and quartermaster npcs are vendors
+    if (icon == "anvil" or icon == "decor" or icon == "quartermaster") then return ns.db["icon_scale_vendor"] end
 
     return ns.db["icon_scale_"..icon] or ns.db["icon_scale_others"]
 end
 
 local function GetIconAlpha(icon)
-    -- anvil and decor npcs are vendors
-    if (icon == "anvil" or icon == "decor") then return ns.db["icon_alpha_vendor"] end
+    -- anvil, decor and quartermaster npcs are vendors
+    if (icon == "anvil" or icon == "decor" or icon == "quartermaster") then return ns.db["icon_alpha_vendor"] end
 
     return ns.db["icon_alpha_"..icon] or ns.db["icon_alpha_others"]
 end
@@ -395,7 +395,7 @@ do
             if (node.icon == "trainer" and not ns.db.show_trainer) then return false end
             if (node.icon == "portaltrainer" and not ns.db.show_portaltrainer) then return false end
             if (node.icon == "transmogrifier" and not ns.db.show_transmogrifier) then return false end
-            if ((node.icon == "vendor" or node.icon == "anvil") and not ns.db.show_vendor) then return false end
+            if ((node.icon == "vendor" or node.icon == "anvil" or node.icon == "quartermaster") and not ns.db.show_vendor) then return false end
         end
         return true
     end

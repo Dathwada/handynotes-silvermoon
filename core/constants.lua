@@ -138,6 +138,7 @@ constants.icon = {
     tpplatform      = "Interface\\MINIMAP\\TempleofKotmogu_ball_cyan",
     vendor          = "Interface\\AddOns\\" .. FOLDER_NAME .. "\\icons\\vendor",
     decor           = "Interface\\AddOns\\" .. FOLDER_NAME .. "\\icons\\decor",
+    quartermaster   = "Interface\\AddOns\\" .. FOLDER_NAME .. "\\icons\\quartermaster",
 
     -- profession icons (since Dragonflight)
     alchemy = "Interface\\ICONS\\ui_profession_alchemy",
