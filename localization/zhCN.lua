@@ -3,14 +3,14 @@ local L = LibStub("AceLocale-3.0"):NewLocale("HandyNotes_Silvermoon", "zhCN", fa
 if not L then return end
 -- Simplified Chinese localization by nbyang ( https://www.curseforge.com/members/nbyang )
 --  zhCN client: (NGA-男爵凯恩)
---  Last update: 2024/08/31
+--  Last update: 2026/02/10
 if L then
 ----------------------------------------------------------------------------------------------------
 -----------------------------------------------CONFIG-----------------------------------------------
 ----------------------------------------------------------------------------------------------------
 
-L["config_plugin_name"] = "多恩诺嘉尔"
-L["config_plugin_desc"] = "在世界地图和小地图上显示多恩诺嘉尔各种NPC及传送门位置。"
+L["config_plugin_name"] = "银月城"
+L["config_plugin_desc"] = "在世界地图和小地图上显示银月城各种NPC及传送门位置。"
 
 L["config_tab_general"] = "通用"
 L["config_tab_scale_alpha"] = "缩放/透明度"
@@ -82,14 +82,14 @@ L["config_onlymytrainers"] = "只显示与我专业相关的训练师和商人"
 L["config_onlymytrainers_desc"] = [[
 只显示与我专业相关的训练师和商人
 
-|cFFFF0000 注意:只有学习了两个专业后该功能才有效果 |r
+|cFFFF0000 注意：只有学习了两个专业后该功能才有效果 |r
 ]]
 
 L["config_fmaster_waypoint"] = "飞行点导航"
-L["config_fmaster_waypoint_desc"] = "当你进入转移之环时, 自动在飞行点建立导航点."
+L["config_fmaster_waypoint_desc"] = "当你进入转移之环时, 自动在飞行点建立导航点。"
 
 L["config_easy_waypoints"] = "便捷导航"
-L["config_easy_waypoints_desc"] = "使你可以更简单的建立导航路线, 你可以通过右键单击设定导航点或者使用CTRL+右键单击获得更多选项."
+L["config_easy_waypoints_desc"] = "使你可以更简单的建立导航路线, 你可以通过右键单击设定导航点或者使用CTRL+右键单击获得更多选项。"
 
 L["config_waypoint_dropdown"] = "选择"
 L["config_waypoint_dropdown_desc"] = "选择如何建立导航点"
@@ -102,7 +102,7 @@ L["config_picons_vendor_desc"] = "显示专业图标而不是商人图标"
 L["config_picons_trainer_desc"] = "显示专业图标而不是训练师图标"
 
 L["config_use_old_picons"] = "显示旧职业图标"
-L["config_use_old_picons_desc"] = "显示旧职业图标而不是新的图标 (巨龙时代之前的)."
+L["config_use_old_picons_desc"] = "显示旧职业图标而不是新的图标 (巨龙时代之前的)。"
 
 L["config_restore_nodes"] = "恢复被隐藏的图标"
 L["config_restore_nodes_desc"] = "恢复被你隐藏掉的图标"
@@ -115,7 +115,7 @@ L["config_restore_nodes_print"] = "所有隐藏的图标已被恢复"
 L["dev_config_tab"] = "DEV"
 
 L["dev_config_force_nodes"] = "强制显示"
-L["dev_config_force_nodes_desc"] = "无论你的职业或阵营, 强制显示所有的点."
+L["dev_config_force_nodes_desc"] = "无论你的职业或阵营, 强制显示所有的点。"
 
 L["dev_config_show_prints"] = "显示标记()"
 L["dev_config_show_prints_desc"] = "在聊天窗口中显示标记()的信息"
@@ -126,7 +126,7 @@ L["dev_config_show_prints_desc"] = "在聊天窗口中显示标记()的信息"
 
 --==========================================CONTEXT_MENU==========================================--
 
-L["handler_context_menu_addon_name"] = "HandyNotes：多恩诺嘉尔"
+L["handler_context_menu_addon_name"] = "HandyNotes：银月城"
 L["handler_context_menu_add_tomtom"] = "添加到 TomTom"
 L["handler_context_menu_add_map_pin"] = "设置地图航点"
 L["handler_context_menu_hide_node"] = "隐藏这个图标"
@@ -144,8 +144,8 @@ L["handler_tooltip_quest"] = "解锁任务"
 
 L["Crafting Orders"] = "制造订单"
 L["Mailbox"] = "邮箱"
-L["Portal to Orgrimmar"] = "通往奥格瑞玛"
-L["Portal to Stormwind"] = "通往暴风城"
+L["Portal to Orgrimmar"] = "通往奥格瑞玛的传送门"
+L["Portal to Stormwind"] = "通往暴风城的传送门"
 L["Portal to The Timeways"] = "通往时间流的传送门"
 L["Rostrum of Transformation"] = "幻形讲坛"
 L["The Catalyst"] = "化生台"
