@@ -3,7 +3,7 @@ local L = LibStub("AceLocale-3.0"):NewLocale("HandyNotes_Silvermoon", "zhCN", fa
 if not L then return end
 -- Simplified Chinese localization by nbyang ( https://www.curseforge.com/members/nbyang )
 --  zhCN client: (NGA-男爵凯恩)
---  Last update: 2026/02/10
+--  Last update: 2026/03/03
 if L then
 ----------------------------------------------------------------------------------------------------
 -----------------------------------------------CONFIG-----------------------------------------------
@@ -144,6 +144,7 @@ L["handler_tooltip_quest"] = "解锁任务"
 
 L["Crafting Orders"] = "制造订单"
 L["Mailbox"] = "邮箱"
+L["Mirror"] = "镜子"
 L["Portal to Orgrimmar"] = "通往奥格瑞玛的传送门"
 L["Portal to Stormwind"] = "通往暴风城的传送门"
 L["Portal to The Timeways"] = "通往时间流的传送门"
