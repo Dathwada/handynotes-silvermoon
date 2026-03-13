@@ -212,6 +212,7 @@ DB.nodes = {
         -- Thalassian University
         [36156180] = { icon = "vendor", npc = 241459 }, -- Parnis
         [35916199] = { icon = "vendor", npc = 241458 }, -- Lothene
+        [39545100] = { icon = "trainer", npc = 254051, profession = 333, picon = "enchanting" }, -- Jennara Sunglow
 
         -- Duskglow Gloriette
         [35286619] = { icon = "portal", label = L["Portal to Voidstorm"], note = QuelThalas, requirements = { quest = 86549 } }, -- check quest
