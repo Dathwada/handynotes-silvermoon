@@ -88,7 +88,7 @@ DB.nodes = {
         [51542871] = { icon = "vendor", npc = 257540, picon = "fishing" }, -- Daelyn
 
         -- The Bazaar
-        [46915161] = { icon = "trainer", npc = 243553, profession = 755, picon = "jewelcrafting" }, -- Zantasia
+        [46915161] = { icon = "trainer", npc = 243553, profession = 755, picon = "inscription" }, -- Zantasia
         [46665119] = { icon = "vendor", npc = 243555, profession = 773, picon = "inscription" }, -- Lelorian
         [47035196] = { icon = "trainer", npc = 243357, profession = 171, picon = "alchemy" }, -- Camberon
         [47035166] = { icon = "vendor", npc = 243359, profession = 171, picon = "alchemy" }, -- Melaris
